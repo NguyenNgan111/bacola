@@ -137,16 +137,7 @@
       "badgeTitle": ""
     }
   ],
-  "newProducts": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
-  ],
+  "newProducts": [1, 2, 3, 4, 5, 6, 7, 8],
   "hotProductForThisWeek": [
     {
       "productId": 8,
@@ -222,13 +213,7 @@
       "items": 5
     }
   ],
-  "trendingProducts": [
-    11,
-    12,
-    13,
-    14,
-    3
-  ],
+  "trendingProducts": [11, 12, 13, 14, 3],
   "bannerMain": [
     {
       "id": 1,
@@ -365,6 +350,16 @@
       "phone": "",
       "mail": "user1@gmail.com",
       "pass": "aaaaaa",
+      "cart": [],
+      "enjoyList": []
+    },
+    {
+      "id": 4,
+      "name": "",
+      "address": "",
+      "phone": "",
+      "mail": "thaynhat9diemruoi@gmail.com",
+      "pass": "123456",
       "cart": [],
       "enjoyList": []
     }
