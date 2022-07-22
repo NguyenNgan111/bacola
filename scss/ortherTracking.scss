@@ -1,0 +1,49 @@
+@import "param";
+.ortherTracking {
+  margin-top: 45px;
+  .container {
+    padding: 15px;
+    .row {
+      > form {
+        p {
+          font-size: 15px;
+          line-height: 24px;
+          margin-bottom: 16px;
+          letter-spacing: 0.5px;
+          color: $text-bold-color;
+        }
+        label {
+          margin-bottom: 8px;
+          display: block;
+          font-size: 13px;
+        }
+        input {
+          width: 100%;
+          padding: 0 15px;
+          background-color: #f3f4f7;
+          color: $text-bold-color;
+          line-height: 38px;
+          border-radius: 4px;
+          margin-bottom: 16px;
+          font-size: 16px;
+          &::placeholder {
+            opacity: 0.9;
+            font-weight: 300;
+            font-size: 14px;
+          }
+        }
+        button {
+          padding: 0 20px;
+          line-height: 40px;
+          background-color: $text-selected-color;
+          color: #fff;
+          border-radius: 6px;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          font-size: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

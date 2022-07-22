@@ -1,0 +1,87 @@
+@import "param";
+.main {
+  margin: 40px 0;
+  .container {
+    .row {
+      .login,
+      .register {
+        form {
+          h4 {
+            padding-bottom: 12px;
+            margin-bottom: 12px;
+            display: block;
+            border-bottom: 1px solid $color-border;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -0.2px;
+            color: $text-bold-color;
+          }
+          label {
+            font-size: 13px;
+            line-height: 24px;
+            color: $text-bold-color;
+            letter-spacing: 0.2px;
+          }
+          input#input-name-login,
+          input#input-name-register,
+          input#input-pass-login,
+          input#input-pass-register {
+            width: 100%;
+            font-size: 15px;
+            height: 40px;
+            padding: 0 15px;
+            color: $text-bold-color;
+            background-color: #f3f4f7;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            margin-top: 8px;
+          }
+          input#input-checking {
+            color: $text-bold-color;
+          }
+          button {
+            display: block;
+            padding: 0 20px;
+            line-height: 40px;
+            background-color: $text-selected-color;
+            color: #fff;
+            margin-top: 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            cursor: pointer;
+          }
+        }
+        > a {
+          display: block;
+          font-size: 14px;
+          margin: 16px 0;
+          line-height: 24px;
+          color: $blue-button;
+          &:hover {
+            color: $text-selected-color;
+            text-decoration: underline;
+          }
+        }
+      }
+      .login {
+        padding-right: 15px;
+      }
+      .register {
+        padding-left: 15px;
+        p {
+          font-size: 13px;
+          color: $text-bold-color;
+          letter-spacing: 0.2px;
+          a {
+            color: #ed174a;
+            text-decoration: underline;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

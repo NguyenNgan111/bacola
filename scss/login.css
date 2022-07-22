@@ -1,0 +1,99 @@
+.main {
+  margin: 40px 0;
+}
+
+.main .container .row .login form h4,
+.main .container .row .register form h4 {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  display: block;
+  border-bottom: 1px solid #e4e5ee;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  color: #202435;
+}
+
+.main .container .row .login form label,
+.main .container .row .register form label {
+  font-size: 13px;
+  line-height: 24px;
+  color: #202435;
+  letter-spacing: 0.2px;
+}
+
+.main .container .row .login form input#input-name-login,
+.main .container .row .login form input#input-name-register,
+.main .container .row .login form input#input-pass-login,
+.main .container .row .login form input#input-pass-register,
+.main .container .row .register form input#input-name-login,
+.main .container .row .register form input#input-name-register,
+.main .container .row .register form input#input-pass-login,
+.main .container .row .register form input#input-pass-register {
+  width: 100%;
+  font-size: 15px;
+  height: 40px;
+  padding: 0 15px;
+  color: #202435;
+  background-color: #f3f4f7;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.main .container .row .login form input#input-checking,
+.main .container .row .register form input#input-checking {
+  color: #202435;
+}
+
+.main .container .row .login form button,
+.main .container .row .register form button {
+  display: block;
+  padding: 0 20px;
+  line-height: 40px;
+  background-color: #233a95;
+  color: #fff;
+  margin-top: 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.main .container .row .login > a,
+.main .container .row .register > a {
+  display: block;
+  font-size: 14px;
+  margin: 16px 0;
+  line-height: 24px;
+  color: #2bbef9;
+}
+
+.main .container .row .login > a:hover,
+.main .container .row .register > a:hover {
+  color: #233a95;
+  text-decoration: underline;
+}
+
+.main .container .row .login {
+  padding-right: 15px;
+}
+
+.main .container .row .register {
+  padding-left: 15px;
+}
+
+.main .container .row .register p {
+  font-size: 13px;
+  color: #202435;
+  letter-spacing: 0.2px;
+}
+
+.main .container .row .register p a {
+  color: #ed174a;
+  text-decoration: underline;
+  font-weight: 500;
+}
+/*# sourceMappingURL=login.css.map */

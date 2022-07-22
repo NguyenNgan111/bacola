@@ -1,0 +1,69 @@
+.ortherTracking {
+  margin-top: 45px;
+}
+
+.ortherTracking .container {
+  padding: 15px;
+}
+
+.ortherTracking .container .row > form p {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+  color: #202435;
+}
+
+.ortherTracking .container .row > form label {
+  margin-bottom: 8px;
+  display: block;
+  font-size: 13px;
+}
+
+.ortherTracking .container .row > form input {
+  width: 100%;
+  padding: 0 15px;
+  background-color: #f3f4f7;
+  color: #202435;
+  line-height: 38px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.ortherTracking .container .row > form input::-webkit-input-placeholder {
+  opacity: 0.9;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.ortherTracking .container .row > form input:-ms-input-placeholder {
+  opacity: 0.9;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.ortherTracking .container .row > form input::-ms-input-placeholder {
+  opacity: 0.9;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.ortherTracking .container .row > form input::placeholder {
+  opacity: 0.9;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.ortherTracking .container .row > form button {
+  padding: 0 20px;
+  line-height: 40px;
+  background-color: #233a95;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=ortherTracking.css.map */

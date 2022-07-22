@@ -1,0 +1,389 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "All Natural Italian-Style Chicken Meatballs",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-346x310.jpg",
+      "price": 7.25,
+      "oldPrice": 9.35,
+      "rating": 4,
+      "badgeDiscount": 0.23,
+      "badgeTitle": "Recommended"
+    },
+    {
+      "id": 2,
+      "title": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-60-346x310.jpg",
+      "price": 4.29,
+      "oldPrice": 3.29,
+      "rating": 4,
+      "badgeDiscount": 0.24,
+      "badgeTitle": ""
+    },
+    {
+      "id": 3,
+      "title": "Field Roast Chao Cheese Creamy Original",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-46-346x310.jpg",
+      "price": 24,
+      "oldPrice": 19.5,
+      "rating": 5,
+      "badgeDiscount": 0.19,
+      "badgeTitle": "organic"
+    },
+    {
+      "id": 4,
+      "title": "Foster Farms Takeout Crispy Classic Buffalo Wings",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-45-346x310.jpg",
+      "price": 49.99,
+      "oldPrice": 7.25,
+      "rating": 4,
+      "badgeDiscount": 0,
+      "badgeTitle": ""
+    },
+    {
+      "id": 5,
+      "title": "Blue Diamond Almonds Lightly Salted",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-59-346x310.jpg",
+      "price": 11.68,
+      "oldPrice": 10.58,
+      "rating": 5,
+      "badgeDiscount": 0.1,
+      "badgeTitle": "organic"
+    },
+    {
+      "id": 6,
+      "title": "Blueberries – 1 Pint Package",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-58-346x310.jpg",
+      "price": 4.49,
+      "oldPrice": 3.99,
+      "rating": 3,
+      "badgeDiscount": 0.12,
+      "badgeTitle": ""
+    },
+    {
+      "id": 7,
+      "title": "Fresh Organic Broccoli Crowns",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-57-346x310.jpg",
+      "price": 6.77,
+      "oldPrice": 4.85,
+      "rating": 4,
+      "badgeDiscount": 0.29,
+      "badgeTitle": "organic"
+    },
+    {
+      "id": 8,
+      "title": "Chobani Complete Vanilla Greek Yogurt",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-50-346x310.jpg",
+      "price": 5.49,
+      "oldPrice": 4.49,
+      "rating": 4,
+      "badgeDiscount": 0.19,
+      "badgeTitle": "Recommended"
+    },
+    {
+      "id": 9,
+      "title": "Legumes & Cereals",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/08/bacola-banner-01.jpg",
+      "price": 5.49,
+      "oldPrice": 4.49,
+      "rating": 4,
+      "badgeDiscount": 0.19,
+      "badgeTitle": "Recommended"
+    },
+    {
+      "id": 10,
+      "title": "Dairy & Eggs",
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/08/bacola-banner-02.jpg",
+      "price": 5.49,
+      "oldPrice": 4.49,
+      "rating": 4,
+      "badgeDiscount": 0.19,
+      "badgeTitle": "Recommended"
+    },
+    {
+      "id": 11,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-7.jpg",
+      "title": "USDA Choice Angus Beef Stew Meat",
+      "oldPrice": 79.99,
+      "price": 49.99,
+      "badgeDiscount": 0.12,
+      "badgeTitle": ""
+    },
+    {
+      "id": 12,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-4.jpg",
+      "title": "Warrior Blend Organic",
+      "oldPrice": 39,
+      "price": 29,
+      "badgeDiscount": 0.12,
+      "badgeTitle": ""
+    },
+    {
+      "id": 13,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-48.jpg",
+      "title": "Encore Seafoods Stuffed Alaskan Salmon",
+      "oldPrice": 32.49,
+      "price": 27.49,
+      "badgeDiscount": 0.12,
+      "badgeTitle": ""
+    },
+    {
+      "id": 14,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-5.jpg",
+      "title": "Vital Farms Pasture-Raised Egg Bites Bacon & Cheddar",
+      "oldPrice": 29,
+      "price": 25,
+      "badgeDiscount": 0.12,
+      "badgeTitle": ""
+    }
+  ],
+  "newProducts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "hotProductForThisWeek": [
+    {
+      "productId": 8,
+      "timeExpired": "2022/08/12",
+      "timeStart": "2022/07/01"
+    }
+  ],
+  "superDiscountWeekend": [
+    {
+      "productId": 9,
+      "text": "Weekend Discount 40%",
+      "discription": "Feed your family the best"
+    },
+    {
+      "productId": 10,
+      "text": "Weekend Discount 40%",
+      "discription": "A different kind of grocery store"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/05/baverages-1.jpg",
+      "title": "Beverages",
+      "items": 11
+    },
+    {
+      "id": 2,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/05/biscuitssnacks-1.jpg",
+      "title": "Biscuits & Snacks",
+      "items": 6
+    },
+    {
+      "id": 3,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/05/breadbakery-1.jpg",
+      "title": "Breads & Bakery",
+      "items": 6
+    },
+    {
+      "id": 4,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/05/dairy-1.jpg",
+      "title": "Breakfast & Dairy",
+      "items": 8
+    },
+    {
+      "id": 5,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/category-image4.png",
+      "title": "Frozen Foods",
+      "items": 7
+    },
+    {
+      "id": 6,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/05/fruitvegetables-1.jpg",
+      "title": "Fruits & Vegetables",
+      "items": 12
+    },
+    {
+      "id": 7,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/category-image2.png",
+      "title": "Grocery & Staples",
+      "items": 7
+    },
+    {
+      "id": 8,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/05/household-1.jpg",
+      "title": "Household Needs",
+      "items": 1
+    },
+    {
+      "id": 9,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/05/meat-1.jpg",
+      "title": "Meats & Seafood",
+      "items": 5
+    }
+  ],
+  "trendingProducts": [
+    11,
+    12,
+    13,
+    14,
+    3
+  ],
+  "bannerMain": [
+    {
+      "id": 1,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/slider-image-1.jpg",
+      "title": "Specialist in the grocery store",
+      "text": "Only this week. Don’t miss...",
+      "discription": "Exclusive Offer",
+      "price": 7.99,
+      "discount": 0.2
+    },
+    {
+      "id": 2,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/slider-image-2.jpg",
+      "title": "Feed your family the best",
+      "text": "Only this week. Don’t miss...",
+      "discription": "Exclusive Offer",
+      "price": 8.99,
+      "discount": 0.3
+    },
+    {
+      "id": 3,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/05/slider-3.jpg",
+      "title": "Grocery full of inspiration",
+      "text": "Only this week. Don’t miss...",
+      "discription": "Exclusive Offer",
+      "price": 6.99,
+      "discount": 0.4
+    }
+  ],
+  "subBanner": [
+    {
+      "id": 1,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/banner-box.jpg",
+      "title": "Roats Burger",
+      "subText": "Bacola Natural Foods",
+      "text": "Special Organic",
+      "price": 14.99
+    },
+    {
+      "id": 2,
+      "image": "https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-banner-04.jpg",
+      "title": "every hour.",
+      "subText": "Best Bakery Products",
+      "text": "Freshest Products",
+      "price": 24.99
+    }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "address": "Alabama",
+      "minPrice": 130
+    },
+    {
+      "id": 2,
+      "address": "Alaska",
+      "minPrice": 120
+    },
+    {
+      "id": 3,
+      "address": "Arizona",
+      "minPrice": 150
+    },
+    {
+      "id": 4,
+      "address": "California",
+      "minPrice": 110
+    },
+    {
+      "id": 5,
+      "address": "Colorado",
+      "minPrice": 140
+    },
+    {
+      "id": 6,
+      "address": "Florida",
+      "minPrice": 160
+    },
+    {
+      "id": 7,
+      "address": "Georgia",
+      "minPrice": 120
+    },
+    {
+      "id": 8,
+      "address": "Kansas",
+      "minPrice": 120
+    },
+    {
+      "id": 9,
+      "address": "Minnesota",
+      "minPrice": 120
+    },
+    {
+      "id": 10,
+      "address": "New York",
+      "minPrice": 110
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Ngân",
+      "address": "85/379 Tăng Nhơn Phú A, quận 9, Hồ Chí Minh",
+      "phone": "0383859515",
+      "mail": "nguyenngan@gmail.com",
+      "pass": "nguyenngan",
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ],
+      "enjoyList": [
+        {
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "",
+      "address": "",
+      "phone": "",
+      "mail": "ngan@gmail.com",
+      "pass": "123456",
+      "cart": [],
+      "enjoyList": []
+    },
+    {
+      "id": 3,
+      "name": "",
+      "address": "",
+      "phone": "",
+      "mail": "user1@gmail.com",
+      "pass": "aaaaaa",
+      "cart": [],
+      "enjoyList": []
+    }
+  ],
+  "boughtList": [
+    {
+      "userId": 1,
+      "productBought": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 7.49
+        }
+      ]
+    }
+  ],
+  "superDiscountCode": [
+    {
+      "code": "FREE25BAC"
+    }
+  ]
+}
