@@ -2,21 +2,22 @@ export function locationHandler() {
   renderLocation();
   searchLocation();
 }
+import { location } from "../data/location.js";
 function renderLocation() {
-  $.getJSON("http://localhost:3000/location", (list) => {
-    let firstItem = 1;
-    const html = list
-      .map((item) => {
-        if (firstItem == 1) {
-          firstItem = 0;
-          return `  <li>
+  // $.getJSON("http://localhost:3000/location", (list) => {
+  let firstItem = 1;
+  const html = location
+    .map((item) => {
+      if (firstItem == 1) {
+        firstItem = 0;
+        return `  <li>
                 <a href="#">
                     <span class="title">Seclect location</span>
                     <span class="price">Clear all</span>
                 </a>
             </li>`;
-        } else {
-          return `
+      } else {
+        return `
             <li>
                 <a href="#">
                      <span class="title">${item.address}</span>
@@ -24,22 +25,22 @@ function renderLocation() {
                 </a>
             </li>
             `;
-        }
-      })
-      .join("");
-    $(".list-location").html(html);
-    clickHandle();
-  });
+      }
+    })
+    .join("");
+  $(".list-location").html(html);
+  clickHandle();
+  // });
 }
 function searchLocation() {
-  $.getJSON("http://localhost:3000/location", (list) => {
-    $(".location-wrapper form input").keyup(() => {
-      const value = $(".location-wrapper form input").val().toLowerCase();
-      if (value) {
-        const locations = list
-          .filter((item) => item.address.toLowerCase().indexOf(value) > -1)
-          .map((element) => {
-            return `
+  // $.getJSON("http://localhost:3000/location", (list) => {
+  $(".location-wrapper form input").keyup(() => {
+    const value = $(".location-wrapper form input").val().toLowerCase();
+    if (value) {
+      const locations = location
+        .filter((item) => item.address.toLowerCase().indexOf(value) > -1)
+        .map((element) => {
+          return `
                 <li>
                    <a href="#">
                    <span class="title">${element.address}</span>
@@ -47,18 +48,18 @@ function searchLocation() {
                    </a>
                </li>
            `;
-          })
-          .join("");
-        locations
-          ? $(".list-location").html(locations)
-          : $(".list-location").html(
-              "<li style='opacity:0.3;' href=''>no results found</li>"
-            );
-      } else {
-        renderLocation();
-      }
-    });
+        })
+        .join("");
+      locations
+        ? $(".list-location").html(locations)
+        : $(".list-location").html(
+            "<li style='opacity:0.3;' href=''>no results found</li>"
+          );
+    } else {
+      renderLocation();
+    }
   });
+  // });
 }
 function clickHandle() {
   $(".list-location li").click((e) => {

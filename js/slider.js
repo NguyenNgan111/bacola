@@ -5,12 +5,15 @@ import {
   renderViewedProduct,
   renderProductDetail,
 } from "./productDetail.js";
-const sliderHandler = $.getJSON(
-  "http://localhost:3000/bannerMain",
-  (products) => {
-    const list = products
-      .map(
-        (product) => `
+import { bannerMain } from "../data/bannerMain.js";
+import { products } from "../data/products.js";
+import { newProducts } from "../data/newProducts.js";
+// const sliderHandler = $.getJSON(
+//   "http://localhost:3000/bannerMain",
+//   (products) => {
+const list = bannerMain
+  .map(
+    (product) => `
         <div class="item">
         <a href="./productDetail.html">
             <img src="${product.image}" alt="">
@@ -36,27 +39,27 @@ const sliderHandler = $.getJSON(
         </a>
     </div>
         `
-      )
-      .join("");
-    $(".main-slider-owl").html(list);
-    $(".owl-carousel.main-slider-owl").owlCarousel({
-      loop: true,
-      margin: 0,
-      nav: true,
-      items: 1,
-    });
-  }
-);
+  )
+  .join("");
+$(".main-slider-owl").html(list);
+$(".owl-carousel.main-slider-owl").owlCarousel({
+  loop: true,
+  margin: 0,
+  nav: true,
+  items: 1,
+});
+// }
+// );
 const bestSellerHandler = function () {
-  fetch("http://localhost:3000/products")
-    .then((response) => response.json())
-    .then((products) => {
-      $.getJSON("http://localhost:3000/newProducts", (listId) => {
-        const list = products
-          .filter((product) => listId.find((id) => id == product.id))
-          .map((item) => {
-            const badgeDiscount = Math.round(Number(item.badgeDiscount) * 100);
-            const saleRecommended = `
+  // fetch("http://localhost:3000/products")
+  // .then((response) => response.json())
+  // .then((products) => {
+  // $.getJSON("http://localhost:3000/newProducts", (listId) => {
+  const list = products
+    .filter((product) => newProducts.find((id) => id == product.id))
+    .map((item) => {
+      const badgeDiscount = Math.round(Number(item.badgeDiscount) * 100);
+      const saleRecommended = `
               <div class="sale-recomment">
                 ${
                   badgeDiscount
@@ -69,7 +72,7 @@ const bestSellerHandler = function () {
                     : ""
                 }
               </div>`;
-            return `<div class="item" data-id="${item.id}">
+      return `<div class="item" data-id="${item.id}">
                       <div>
                         <a href="./productDetail.html">
                           <img src="${item.image}" alt="">
@@ -106,34 +109,34 @@ const bestSellerHandler = function () {
                         </div>
                       </div>
                   </div>`;
-          });
-        $(".best-seller-products").html(list.join(""));
-        addToCart();
-        renderSubProductDetail();
-        renderDetailProduct();
-        renderViewedProduct();
-        renderProductDetail();
-        $(".owl-carousel.best-seller-products").owlCarousel({
-          loop: true,
-          margin: 0,
-          nav: true,
-          autoplay: false,
-          autoplayTimeout: 5000,
-          autoplayHoverPause: true,
-          responsive: {
-            0: {
-              items: 1,
-            },
-            600: {
-              items: 2,
-            },
-            1000: {
-              items: 4,
-            },
-          },
-        });
-      });
     });
+  $(".best-seller-products").html(list.join(""));
+  addToCart();
+  renderSubProductDetail();
+  renderDetailProduct();
+  renderViewedProduct();
+  renderProductDetail();
+  $(".owl-carousel.best-seller-products").owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 4,
+      },
+    },
+  });
+  // });
+  // });
 };
 bestSellerHandler();
 

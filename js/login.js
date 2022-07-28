@@ -1,4 +1,5 @@
-const userApi = "http://localhost:3000/users";
+const userApi =
+  "https://6283e66938279cef71dde27c.mockapi.io/users?fbclid=IwAR1VgUT0lsjo9G8w2Gq9jpr4GpXXm2rX8vUukcBNWoruETXm7YqjL3aH-q4";
 export function loginHandler() {
   registerHandler();
   signInHandler();
@@ -83,7 +84,6 @@ function checkPassWord(pass) {
 }
 function checkEmailExist(listUser, email) {
   const test = listUser.findIndex((user) => user.mail == email);
-  console.log(test);
   if (test >= 0) {
     return true;
   } else {

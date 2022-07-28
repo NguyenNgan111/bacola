@@ -22,7 +22,8 @@ export function putLocal(listProductInCart) {
 }
 let reduce1 = 0;
 let count1 = 0;
-
+let reduce2 = 0;
+let count2 = 0;
 export function addToCart() {
   $(".btn-add-cart> div > a").click((e) => {
     e.stopPropagation();
@@ -89,6 +90,7 @@ export function addToCart() {
     const test = listProductInCart.findIndex(
       (product) => product.productId == id
     );
+    reduce2 = test;
     if (test > -1) {
       listProductInCart[test].quantity =
         Number(listProductInCart[test].quantity) + 1;
@@ -126,6 +128,16 @@ export function addToCart() {
         quantity: quantity,
         priceTotal: priceTotal,
       });
+    }
+    if (count2 == 1) {
+      count2 = 0;
+      listProductInCart[reduce2].quantity =
+        Number(listProductInCart[reduce2].quantity) - 1;
+      listProductInCart[reduce2].priceTotal =
+        Number(listProductInCart[reduce2].price) *
+        Number(listProductInCart[reduce2].quantity);
+    } else {
+      count2 = 1;
     }
     renderProductInCart();
     removeToCart();
